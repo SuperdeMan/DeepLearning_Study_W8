@@ -6,3 +6,5 @@ Growth rate：由于每个层的输入是所有之前层输出的连接，因此
 
 虽然说每个层只产生k个输出，但是后面层的输入依然会很多，因此引入了Bottleneck layers 。本质上是引入1x1的卷积层来减少输入的数量，Hl的具体表示如下
 BN−>ReLU−>Conv(1×1)−>BN−>ReLU−>Conv(3×3)
+
+tinymind运行：https://www.tinymind.com/SuperdeMan/densenet/executions
